@@ -40,6 +40,9 @@
       desktop = "^2";
       follow = true;
       };
+  "Virt-manager" = {
+      state = "floating";
+    };     
 	};
 
   xsession.windowManager.bspwm.startupPrograms = [
