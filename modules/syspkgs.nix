@@ -5,6 +5,8 @@ in
 {
   environment.systemPackages = with pkgs; [
     vim
+    trash-cli
+    bat
     wget
     pavucontrol
     neofetch
