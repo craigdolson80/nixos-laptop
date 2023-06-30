@@ -8,7 +8,7 @@
   };
 	programs.kitty = {
 	extraConfig = ''
-	include home-manager/dotfiles/kitty/kitty-themes/themes/Dracula.conf
+	include ~/nixos-laptop/home-manager/dotfiles/kitty/kitty-themes/themes/Dracula.conf
 	confirm_os_window_close 0
         background_opacity 0.8
         dynamic_background_opacity yes
