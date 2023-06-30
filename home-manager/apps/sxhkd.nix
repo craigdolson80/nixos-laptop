@@ -55,6 +55,15 @@
     "super + alt + {Left,Right}" = "bspc monitor -f {west,east}";
   # move and switch windows between monitors
     "super + {_,shift +} {comma, period}" = "bspc {monitor --focus,node --to-monitor} {prev,next} --follow";
+
+#
+# change window size
+#
+
+  # expand a window by moving one of its side outward
+    "super + alt + {h,j,k,l}" = "bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}";
+  # contract a window by moving one of its side inward
+    "super + alt + shift + {h,j,k,l}" = "bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}";
     };
  };
 }
