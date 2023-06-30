@@ -111,7 +111,7 @@ in
     description = "${user}";
     extraGroups = [ "networkmanager" "wheel" "audio" "video" "lpd" "libvirtd" "users" ];
     packages = with pkgs; [
-      firefox
+      #firefox
     ];
     shell = pkgs.zsh;
   };

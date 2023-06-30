@@ -34,22 +34,22 @@
 #DOTFILE IMPORTS
   #qtile
      home.file.".config/qtile" = {
-     source = /home/craig/nix-flakes/home-manager/dotfiles/qtile;
+     source = home-manager/dotfiles/qtile;
      recursive = true;
      };
   #polybar
      home.file.".config/polybar" = {
-     source = /home/craig/nix-flakes/home-manager/dotfiles/polybar;
+     source = home-manager/dotfiles/polybar;
      recursive = true;
      executable = true;
      };
    #picom
      home.file.".config/picom" = {
-     source = /home/craig/nix-flakes/home-manager/dotfiles/picom;
+     source = home-manager/dotfiles/picom;
      };
   #rofi
      home.file.".config/rofi" = {
-     source = /home/craig/nix-flakes/home-manager/dotfiles/rofi;
+     source = home-manager/dotfiles/rofi;
      recursive = true;
      executable = true;
      };
