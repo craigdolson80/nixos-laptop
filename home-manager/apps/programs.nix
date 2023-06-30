@@ -40,6 +40,7 @@
      polybar
      rofi
      signal-desktop
+     teams
      telegram-desktop
      timeshift
      tor

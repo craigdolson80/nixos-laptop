@@ -25,7 +25,13 @@ in
     win-virtio
     win-spice
 ##-------------------------##
-
+    pciutils
+    usbutils
+    lm_sensors
+    pcsclite
+    pcsctools
+    ccid
+    
 #Ledger Live
  (writeShellScriptBin "ledger.sh" ''
    appimage-run "/home/${user}/Applications/Ledger.AppImage";
